@@ -29,26 +29,26 @@ header{
     align-items: center;
 }
 
-nav ul,.footer2 ul{
+nav ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.logo,.footer2{
+.logo{
     display: flex;
     flex-direction: row;
     justify-content:left;
     align-items: center;
 }
-.logo .logo-img,.footer2 .logo .logo-img{
+.logo .logo-img{
     margin-left: 170px;
     width: 50px;
     height:50px;
     background-image: url('../img/8603a5af28d57d0becdc1d9f4411e493.png');
     background-size: 100%;
 }
-.logo .logo-text,.footer2 .logo .logo-text{
+.logo .logo-text{
     font-weight: 600;
     font-size: 24px;
     margin-left: 12px;
@@ -56,7 +56,7 @@ nav ul,.footer2 ul{
 nav{
     width: 497px;
 }
-nav ul li a,.footer2 ul li a{
+nav ul li a{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 2px;
@@ -78,6 +78,7 @@ button{
     border-radius: 8px;
     outline: none;
 }
+/* sections */
 .section1{
     background: #0EB4C1;
     width: 1440px;
@@ -171,6 +172,7 @@ h1{
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 120px;
 }
+/* footer */
 footer{
     margin: 0 auto;
     width: 1440px;
